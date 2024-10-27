@@ -1,0 +1,387 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Header Code  */
+.main{
+    width: 100%;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    background-color:black;
+}
+
+.header div{
+    display: inline-flex;
+}
+
+.logo{
+    width: 20%;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img{
+    width: 100px;
+}
+
+.navbar {
+    width: 49%;
+    height: 80px;
+    position: absolute;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.navbar ul{
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline-block;
+    width: 50px;
+    height: 1px;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    color: black;
+    color: white;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.tools{
+    color: #fff; 
+    font-size: 24px;
+    float: inline-end;
+    padding: 15px 0px 0px 0px;
+}
+
+.tools img{
+    width: 150px;
+}
+
+/* Section 1 */
+.cover{
+    background-image: url(./background-img.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+}
+
+.handfree{
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+
+.content{
+    width: 2000px;
+    height: 150px;
+    /* background-color: blue; */
+    text-align: center;
+    justify-content: center;
+}
+
+p{
+    color: white;
+    font-weight: 200;
+    font-family:sans-serif;
+    
+}
+
+#heading{
+    /* padding-top: 150px; */
+    letter-spacing: 15px;
+    font-size: 70px;
+    font-weight: 700;
+    color: white;
+    font-family: Calibri;
+    text-shadow: 0px/*+right -left*/ -14px/*-top +bottom*/ 4px/*blur*/ rgba(255, 255, 255, 0.5);
+    
+}
+
+.content button{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: rgb(41,150,216);
+    border: none;
+}
+
+.headphone{
+    float: left;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: self-end;
+    justify-content: end;
+    /* padding: 580px 0px 0px 0px; */
+}
+
+/* Section 2 */
+.section-title{
+    color: #fff;
+    padding: 50px 0 0 50px;
+    font-size: xx-large;
+}
+
+section{
+    height: 350px;
+    width: 100%;
+    background-color: black;
+}
+
+section span{
+    color: #fff;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    text-decoration: solid;
+    font-size: 30px;
+    text-shadow: 0px -14px 4px rgba(255, 255, 255, 0.5);
+}
+
+
+.products{
+    width: 80%;
+    height: 180px;
+    background-color: black;
+    margin: 30px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img{
+    width: 15%;
+    height: 155px;
+    background-color: rgb(8,8,8);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.img img {
+    height: 150px;
+    width: 70%;
+    background-color: rgb(42,43,43);
+    border-radius: 200px;
+}
+
+/* Section 3 */
+.boxes{
+    width: 100%;
+    height: 320px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(8,8,8);
+
+}
+
+.box1, .box2{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 300px;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+
+.box1{
+    background-image: url(./box1.jpg);
+}
+
+.box2{
+    background-image: url(./box2.jpg);
+}
+
+span{
+    font-size: 30px;
+}
+
+.boxes button{
+    width: 120px;
+    color: #fff;
+    background-color: rgb(41,150,216);
+    border: none;
+    padding: 10px;
+}
+
+
+/* Section 4 */
+.all-products{
+    height: 1050px;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.products-buy{
+    width: 90%;
+    height: auto;
+    background-color: black;
+}
+
+.row1, .row2{
+    width: 100%;
+    height: 480px;
+    margin: 8px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-1, .product-2, .product-3, .product-4{
+    /* width: 23%; */
+    width: 305.5px;
+    height: 400px;
+    margin: 10px;
+    background-color: rgb(28,28,28);
+    overflow: hidden;
+}
+
+.product-1 button{
+    width: 120px;
+    
+    color: #fff;
+    background-color: rgb(41, 150, 216);
+    border: none;
+    padding: 10px;
+
+}
+
+.products-buy img{
+    width: 90%;
+    height: 60%;
+    margin: 13px;
+}
+
+.products-buy p{
+    margin: 0 0 13px 13px;
+}
+
+ins{
+    margin: 0 0 13px 13px;
+    list-style: none;
+    text-decoration: none;
+    color: red;
+}
+
+del{    
+    margin: 0 0 0 5px;
+    color:dodgerblue;
+}
+
+/* Section 5 Last */
+.last-container{
+    width: 100%;
+    height: 700px;
+    background-color: black;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.bg-img{
+    width: 90%;
+    height: 600px;
+    background-color:black;
+    background-image: url(./Iphone-15.jpg);
+    background-size: cover;
+    position: absolute;
+}
+
+.container-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 0 13px 13px;
+    opacity: 1;
+}
+
+.container-text p{
+    padding: 13px ;
+    margin:13px ;
+}
+
+.container-text button{
+    width: 150px; 
+    color: #fff;
+    background-color: rgb(41,150,216);
+    border: none;
+    padding: 10px;
+}
+
+#developer{
+    color: #fff;
+    background-color: black;
+    padding: 50px;
+}
+
+
+/* Cart page  */
+.cart-products{
+    display: flex;
+    /* width: 305.5px; */
+    /* height: 400px; */
+    margin: 10px;
+    background-color: rgb(28,28,28);
+    overflow: hidden;
+}
+.cart-products img{
+    width: 200px;
+    height: 200px;
+}
+
+
+.button-add-minus{
+    display: flex;
+    width: 150px;
+    /* height: 20%; */
+    border: 1px solid rgb(41,150,216);
+    padding: 0px;
+    justify-content: space-between;
+    border-radius: 100px;
+    margin: 10px 0px;
+    align-items: center;
+}
+
+.button-add-minus button{
+    width: 40%;
+    color: #fff;
+    font-size:xx-large;
+    border-radius: 100px;
+    border: 0;
+    padding: 0px 0px;
+    background-color:rgb(41,150,216);
+    cursor: pointer;
+}
+
+#Select-quantity{
+    margin: 15px;
+}

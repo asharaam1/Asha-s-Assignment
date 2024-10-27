@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronic Store</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+    <div class="main"> 
+            <!-- Header -->
+        <div class="header">
+            <div class="logo">
+                <img src="./techno logo.png" alt="">
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li> <a href="./cart.html">Product</a></li>
+                    <li>Page</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+            <div class="tools">
+                <img src="./icons.jpg" alt="">
+                <!-- <a href=""><img src="./Search-icon.png" alt=""></a>
+                <a href=""><img src="./Login-logo.png" alt=""></a>
+                <a href=""><img src="./add-fav-icon.png" alt=""></a>
+                <a href=""><img src="./cart-bag-icon.png" alt=""></a> -->
+            </div>
+        </div>
+
+            <!-- Section 1 -->
+        <div class="cover">
+
+            <div class="handfree">
+                <img src="./handfree-img.png" alt="">
+            </div>
+
+            <div class="content">
+                <p>Flat 30% off. on all Digital</p>
+                <br>
+                <p id="heading">HEADPHONE</p>
+                <br>
+                <button type="button" name="Shop Now" onclick="checkout()">View Cart</button>
+            </div>
+          
+            <div class="headphone">
+                <img src="./loud-img.png" alt="">
+            </div>
+            
+        </div>
+
+        <!-- Section 2 -->
+        <section>
+            <div class="section-title">
+            <h2>TRENDING CATAGORIES </h2>
+            </div>
+            <div class="products">
+                <div class="img"><img src="./smart-watch.png" alt=""><p>Smart Watches</p></div>
+                <div class="img"><img src="./airpods.png" alt=""><p>Airpods</p></div>
+                <div class="img"><img src="./iphone.png" alt=""><p>Iphones</p></div>
+                <div class="img"><img src="./laptops.png" alt=""><p>Laptops</p></div>
+                <div class="img"><img src="./handfree-img.png" alt=""><p>Handfree</p></div>
+                <div class="img"><img src="./headphones.png" alt=""><p>Headphones</p></div>
+            </div>
+        </section>
+
+        <!-- Section 3 -->
+        <div class="boxes">
+            <div class="box1"> 
+                <p>Sony Mdr 10rbt <br><br>
+                <span>New Collection</span> <br><br>
+                <button type="button" onclick="addToCart(index)">Add to Cart</button></p>
+            </div>
+            <div class="box2">
+                <p>MacBook Pro <br><br>
+                <span>Best New</span><br><br>
+                <button type="button" onclick="addToCart(index)">Add to Cart</button></p>
+            </div>
+        </div>
+
+        <!-- Section 4 -->
+        <section class="all-products">
+            <div class="section-title">
+                <h2>TRENDING PRODUCTS</h2>
+            </div>
+            <div class="container">
+                <div class="products-buy">
+                    <div class="row1">
+                        <!-- Products Render by JavaScript -->
+                    </div>
+                    <div class="row2">
+                        <!-- Products Render by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5 last -->
+        <div class="last-container">
+            <div class="bg-img">
+                <div class="container-text">
+                    <p>BIG DISCOUNT <br> <br>
+                    <span>Apple iPhone 15 pro max</span><br><br>
+                    <ins>$1199.00</ins><del>1699.00</del> <br><br>
+                    <button onclick="addToCart(index)">Add To Cart</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <p id="developer"><u><b>Name: Asha Ram</b></u><br>
+        <u><b>Roll No: 254581</b></u></p>
+    </div> 
+    
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

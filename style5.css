@@ -1,11 +1,21 @@
 *{
     padding: 0px;
     margin: 0px;
+    color: #fff;
+}
+body{
+    background-color: black;
 }
 
-/* Header Code  */
+/*! Header Code  */
 .main{
     width: 100%;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
 }
 
 .header{
@@ -69,9 +79,9 @@
     width: 150px;
 }
 
-/* Section 1 */
+/*! Section 1 ==> Advertise */
 .cover{
-    background-image: url(./background-img.jpg);
+    background-image: url(./images/background-img.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -132,7 +142,7 @@ p{
     /* padding: 580px 0px 0px 0px; */
 }
 
-/* Section 2 */
+/*! Section 2 ==> TRENDING CATAGORIES */
 .section-title{
     color: #fff;
     padding: 50px 0 0 50px;
@@ -155,7 +165,7 @@ section span{
 }
 
 
-.products{
+.category{
     width: 80%;
     height: 180px;
     background-color: black;
@@ -181,7 +191,7 @@ section span{
     border-radius: 200px;
 }
 
-/* Section 3 */
+/*! Section 3 ==> New collection & Best New*/
 .boxes{
     width: 100%;
     height: 320px;
@@ -207,11 +217,11 @@ section span{
 }
 
 .box1{
-    background-image: url(./box1.jpg);
+    background-image: url(./images/box1.jpg);
 }
 
 .box2{
-    background-image: url(./box2.jpg);
+    background-image: url(./images/box2.jpg);
 }
 
 span{
@@ -227,7 +237,7 @@ span{
 }
 
 
-/* Section 4 */
+/*! Section 4 ==> TRENDING PRODUCTS*/
 .all-products{
     height: 1050px;
     background-color: black;
@@ -296,7 +306,7 @@ del{
     color:dodgerblue;
 }
 
-/* Section 5 Last */
+/*! Section 5 Last  ==> Apple iPhone 15 pro max */
 .last-container{
     width: 100%;
     height: 700px;
@@ -310,7 +320,7 @@ del{
     width: 90%;
     height: 600px;
     background-color:black;
-    background-image: url(./Iphone-15.jpg);
+    background-image: url(./images/Iphone-15.jpg);
     background-size: cover;
     position: absolute;
 }
@@ -344,7 +354,7 @@ del{
 }
 
 
-/* Cart page  */
+/*! Cart page  */
 .cart-products{
     display: flex;
     /* width: 305.5px; */
@@ -384,4 +394,18 @@ del{
 
 #Select-quantity{
     margin: 15px;
+}
+
+.flexprop{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.delete-btn{
+    color: #fff;
+    border-radius: 100px;
+    border: 0;
+    padding: 5px 20px;
+    background-color:rgb(41,150,216);
+    cursor: pointer;
 }
